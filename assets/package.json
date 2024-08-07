@@ -1,14 +1,15 @@
 {
-  "name": "assets",
+  "name": "portfolio-website",
   "version": "1.0.0",
-  "main": "ptj.js",
+  "description": "This repository contains the source code and files for my personal portfolio website. The website is built using HTML, CSS, and JavaScript.",
+  "main": "index.js",
   "scripts": {
+    "start": "serve -s .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "serve": "^14.2.3"
+    "serve": "^14.0.1"
   }
 }
